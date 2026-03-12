@@ -1,0 +1,8 @@
+[deploy]
+deployAptPackages = [
+  "libglib2.0-0",
+  "libx11-6",
+  "libxss1",
+  "libappindicator3-1",
+  "libindicator7"
+]
