@@ -1,28 +1,9 @@
 [build]
-nixpacks = [
-  "glib",
-  "nss",
-  "nspr",
-  "atk",
-  "at-spi2-atk",
-  "cups",
-  "drm",
-  "dbus",
-  "libxkbcommon",
-  "gtk3",
-  "pango",
-  "cairo",
-  "xorg.libX11",
-  "xorg.libXcomposite",
-  "xorg.libXdamage",
-  "xorg.libXext",
-  "xorg.libXfixes",
-  "xorg.libXrandr",
-  "xorg.libXrender",
-  "xorg.libXtst",
-  "xorg.libXi",
-  "xorg.libxcb",
-  "xorg.libxshmfence",
-  "mesa",
-  "alsa-lib"
+
+buildAptPackages = [
+"libglib2.0-0",
+"libx11-6",
+"libxss1",
+"libappindicator3-1",
+"libindicator7"
 ]
